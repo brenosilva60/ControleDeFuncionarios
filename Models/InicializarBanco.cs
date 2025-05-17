@@ -1,6 +1,6 @@
 namespace controleDeFuncionarios.Models;
 using Microsoft.Extensions.DependencyInjection;
-
+using controleDeFuncionarios.Dao;
 
 public static class InicializarBanco
 {

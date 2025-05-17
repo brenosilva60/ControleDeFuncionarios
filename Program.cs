@@ -1,4 +1,5 @@
 using controleDeFuncionarios.Models;
+using controleDeFuncionarios.Dao;
 using controleDeFuncionarios.Rotas;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,6 @@ InicializarBanco.PopularBancoDeDados(app.Services);
 
 app.MapGet("/", () => "Hello World!");
 app.MapGetRoutes();
-
+app.MapPostRoutes();
 
 app.Run();

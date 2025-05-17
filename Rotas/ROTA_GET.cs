@@ -1,4 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using controleDeFuncionarios.Models;
+using controleDeFuncionarios.Dao;
+
 namespace controleDeFuncionarios.Rotas;
 
 public static class ROTA_GET
