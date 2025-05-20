@@ -11,5 +11,6 @@ InicializarBanco.PopularBancoDeDados(app.Services);
 app.MapGet("/", () => "Hello World!");
 app.MapGetRoutes();
 app.MapPostRoutes();
+app.MapDeleteRoutes();
 
 app.Run();
