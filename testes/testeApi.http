@@ -1,0 +1,16 @@
+### Teste de GET
+GET http://localhost:5000/api/funcionarios
+Accept: application/json
+
+### Teste de POST
+POST http://localhost:5000/api/funcionarios
+Content-Type: application/json
+
+{
+  "nome": "João Silva",
+  "cargo": "Desenvolvedor",
+  "salario": 5000
+}
+
+### Teste de DELETE
+DELETE http://localhost:5000/api/funcionarios/1
