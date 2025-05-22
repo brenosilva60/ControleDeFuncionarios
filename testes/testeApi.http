@@ -1,16 +1,60 @@
-### Teste de GET
-GET http://localhost:5000/api/funcionarios
-Accept: application/json
+### Testar rota raiz
+GET http://localhost:5077/
 
-### Teste de POST
-POST http://localhost:5000/api/funcionarios
+### Listar todos os cargos
+GET http://localhost:5077/api/cargo
+
+### Buscar cargo por ID
+GET http://localhost:5077/api/cargo/1
+
+### Criar um novo cargo
+POST http://localhost:5077/api/cargo
 Content-Type: application/json
 
 {
-  "nome": "João Silva",
-  "cargo": "Desenvolvedor",
+  "nome": "Desenvolvedor",
+  "descricao": "Responsável por desenvolver aplicações"
+}
+
+### Deletar um cargo por ID
+DELETE http://localhost:5077/api/cargo/1
+
+### Listar todos os funcionários
+GET http://localhost:5077/api/funcionario
+
+### Buscar funcionário por ID
+GET http://localhost:5077/api/funcionario/1
+
+### Criar um novo funcionário
+POST http://localhost:5077/api/funcionario
+Content-Type: application/json
+
+{
+  "pessoaId": 1,
+  "cargoId": 1,
+  "setorId": 1,
+  "dadosBancariosId": 1,
+  "enderecoID": 1,
   "salario": 5000
 }
 
-### Teste de DELETE
-DELETE http://localhost:5000/api/funcionarios/1
+### Deletar um funcionário por ID
+DELETE http://localhost:5077/api/funcionario/1
+
+### Listar todos os setores
+GET http://localhost:5077/api/setor
+
+### Buscar setor por ID
+GET http://localhost:5077/api/setor/1
+
+### Criar um novo setor
+POST http://localhost:5077/api/setor
+Content-Type: application/json
+
+{
+  "nome": "TI",
+  "descricao": "Tecnologia da Informação"
+}
+
+### Deletar um setor por ID
+DELETE http://localhost:5077/api/setor/1
