@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2e7d32;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #1b5e20;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.table th {
+    background-color: #81c784;
+    color: white;
+    font-weight: bold;
+}
+
+.table tr:hover {
+    background-color: #f1f8e9;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-success {
+    background-color: #43a047;
+}
+
+.btn-success:hover {
+    background-color: #388e3c;
+}
+
+.btn-primary {
+    background-color: #039be5;
+}
+
+.btn-primary:hover {
+    background-color: #0288d1;
+}
+
+.btn-warning {
+    background-color: #fd3535;
+    color: #444;
+}
+
+.btn-warning:hover {
+    background-color: #2d53fb;
+}
+
+.btn-danger {
+    background-color: #e53935;
+}
+
+.btn-danger:hover {
+    background-color: #c62828;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cfd8dc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #2e7d32;
+}

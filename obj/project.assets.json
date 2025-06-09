@@ -3186,19 +3186,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\henri\\.nuget\\packages\\": {}
+    "C:\\Users\\Breno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\ControleDeFuncionarios\\ControleDeFuncionarios.csproj",
+      "projectUniqueName": "C:\\Users\\Breno\\Downloads\\funcionarios\\funcionarios\\ControleDeFuncionarios\\ControleDeFuncionarios.csproj",
       "projectName": "ControleDeFuncionarios",
-      "projectPath": "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\ControleDeFuncionarios\\ControleDeFuncionarios.csproj",
-      "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\ControleDeFuncionarios\\obj\\",
+      "projectPath": "C:\\Users\\Breno\\Downloads\\funcionarios\\funcionarios\\ControleDeFuncionarios\\ControleDeFuncionarios.csproj",
+      "packagesPath": "C:\\Users\\Breno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Breno\\Downloads\\funcionarios\\funcionarios\\ControleDeFuncionarios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Breno\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3221,7 +3221,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -3249,6 +3250,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.15, 8.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.15, 8.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.15, 8.0.15]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.15, 8.0.15]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -3257,7 +3276,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

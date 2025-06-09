@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ControleDeFuncionarios/css/style.4kggpwin1z.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4kggpwin1z"},{"Name":"integrity","Value":"sha256-LC/L72ATR4eC85t1Kw3rqsNFVTGZ1nnLccrGE4LyW8U="},{"Name":"label","Value":"_content/ControleDeFuncionarios/css/style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1566"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LC/L72ATR4eC85t1Kw3rqsNFVTGZ1nnLccrGE4LyW8U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 20:12:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ControleDeFuncionarios/css/style.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LC/L72ATR4eC85t1Kw3rqsNFVTGZ1nnLccrGE4LyW8U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1566"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LC/L72ATR4eC85t1Kw3rqsNFVTGZ1nnLccrGE4LyW8U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 20:12:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

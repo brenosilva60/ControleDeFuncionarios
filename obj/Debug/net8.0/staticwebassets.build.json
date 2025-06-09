@@ -1,11 +1,125 @@
 {
   "Version": 1,
-  "Hash": "kU1yhS+rKCcVAFakn5m8XWpvF9jFj7DoKC3r685Ma/A=",
+  "Hash": "mGCEIKFfgJvPi1nd1tsLyJtQrdTG0EiCczQU2n4UlFc=",
   "Source": "ControleDeFuncionarios",
   "BasePath": "_content/ControleDeFuncionarios",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ControleDeFuncionarios\\wwwroot",
+      "Source": "ControleDeFuncionarios",
+      "ContentRoot": "C:\\Users\\Breno\\Downloads\\funcionarios\\funcionarios\\ControleDeFuncionarios\\wwwroot\\",
+      "BasePath": "_content/ControleDeFuncionarios",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Breno\\Downloads\\funcionarios\\funcionarios\\ControleDeFuncionarios\\wwwroot\\css\\style.css",
+      "SourceId": "ControleDeFuncionarios",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Breno\\Downloads\\funcionarios\\funcionarios\\ControleDeFuncionarios\\wwwroot\\",
+      "BasePath": "_content/ControleDeFuncionarios",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4kggpwin1z",
+      "Integrity": "LC/L72ATR4eC85t1Kw3rqsNFVTGZ1nnLccrGE4LyW8U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/style.4kggpwin1z.css",
+      "AssetFile": "C:\\Users\\Breno\\Downloads\\funcionarios\\funcionarios\\ControleDeFuncionarios\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1566"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LC/L72ATR4eC85t1Kw3rqsNFVTGZ1nnLccrGE4LyW8U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 20:12:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4kggpwin1z"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LC/L72ATR4eC85t1Kw3rqsNFVTGZ1nnLccrGE4LyW8U="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\Breno\\Downloads\\funcionarios\\funcionarios\\ControleDeFuncionarios\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1566"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LC/L72ATR4eC85t1Kw3rqsNFVTGZ1nnLccrGE4LyW8U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 20:12:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LC/L72ATR4eC85t1Kw3rqsNFVTGZ1nnLccrGE4LyW8U="
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,65 @@
+@model controleDeFuncionarios.Models.Funcionario
+
+@{
+    ViewData["Title"] = "Adicionar Funcionário";
+}
+
+<head>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="Nome">Nome</label>
+        <input type="text" id="Nome" name="Nome" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="Cpf">CPF</label>
+        <input type="text" id="Cpf" name="Cpf" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="Salario">Salário</label>
+        <input type="number" id="Salario" name="Salario" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="SetorId">Setor</label>
+        <select id="SetorId" name="SetorId" class="form-control" required>
+            <option value="1">TI</option>
+            <option value="2">RH</option>
+            <option value="3">Financeiro</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="CargoId">Cargo</label>
+        <select id="CargoId" name="CargoId" class="form-control" required>
+            <option value="1">Analista</option>
+            <option value="2">Gerente</option>
+            <option value="3">Assistente</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="DadosBancariosId">Dados Bancários</label>
+        <select id="DadosBancariosId" name="DadosBancariosId" class="form-control" required>
+            <option value="1">Conta Corrente</option>
+            <option value="2">Conta Poupança</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="EnderecoID">Endereço</label>
+        <select id="EnderecoID" name="EnderecoID" class="form-control" required>
+            <option value="1">Rua A, 123</option>
+            <option value="2">Rua B, 456</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="Telefone">Telefone</label>
+        <input type="text" id="Telefone" name="Telefone" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" id="Email" name="Email" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-success">Salvar</button>
+</form>
